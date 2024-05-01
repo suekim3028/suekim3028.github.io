@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksue_blog=self.webpackChunksue_blog||[]).push([[571],{6666:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/web","page":1,"postsPerPage":2,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
