@@ -28,20 +28,126 @@
 해짐!</li>
 </ul>
 </li>
+<li>mdn 예시: <code>JS 13K GAMES</code> <a href="https://mdn.github.io/pwa-examples/js13kpwa/" target="_blank" rel="noopener noreferrer">https://mdn.github.io/pwa-examples/js13kpwa/</a></li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="프로그레시브-웹앱의-주요-기능들">프로그레시브 웹앱의 주요 기능들<a href="https://suekim3028.github.io/blog/pwa#%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9%EC%95%B1%EC%9D%98-%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5%EB%93%A4" class="hash-link" aria-label="Direct link to 프로그레시브 웹앱의 주요 기능들" title="Direct link to 프로그레시브 웹앱의 주요 기능들">​</a></h3>
 <ol>
 <li>
-<p>Capable</p>
+<p><strong>Capable</strong></p>
 <ul>
 <li>기존의 platform specific app 에서만 가능했던 기능들을 사용자 권한 허용을 기반으로 제공함
 <img decoding="async" loading="lazy" src="https://suekim3028.github.io/assets/images/Pasted%20image%2020240515175117-81b90ea647d8580482532529b332f5f8.png" width="1400" height="430" class="img_ev3q"><span style="font-size:10px;color:gray"> 이미지 출처: <a href="https://medium.com/watcha/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C-%EB%AF%B8%EB%94%94%EC%96%B4-%EA%B6%8C%ED%95%9C%EC%9D%84-%EB%8B%A4%EB%A3%A8%EB%8A%94-%EA%B0%84%EB%8B%A8-tip-ee9e42ce9cb1" target="_blank" rel="noopener noreferrer">https://medium.com/watcha/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C-%EB%AF%B8%EB%94%94%EC%96%B4-%EA%B6%8C%ED%95%9C%EC%9D%84-%EB%8B%A4%EB%A3%A8%EB%8A%94-%EA%B0%84%EB%8B%A8-tip-ee9e42ce9cb1</a></span></li>
 </ul>
 </li>
 <li>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reliable">Reliable<a href="https://suekim3028.github.io/blog/pwa#reliable" class="hash-link" aria-label="Direct link to Reliable" title="Direct link to Reliable">​</a></h2>
+<p><strong>Reliable</strong></p>
+<ul>
+<li>네트워크와 관계 없이 더 빠른 환경을 제공하는 웹앱</li>
+<li>필요한 정보의 경우 잘게 나누어 다른 문제가 발생하더라도 최대한 보여줄 수 있도록</li>
+<li>에러가 발생하더라도 crash가 아닌 적절한 알림 제공</li>
+<li>https에서만 사용 가능하고 제공되는 기능들은 모두 보안 기준을 가지고 있음</li>
+</ul>
 </li>
-</ol>]]></content>
+<li>
+<p><strong>Installable</strong></p>
+<ul>
+<li>설치가 가능하다!</li>
+<li>브라우저 내에서만 동작하는 것이 아니라, 따로 standalone한 윈도우로 보여줄 수 있음<!-- -->
+<ul>
+<li>유저에게 더 상호작용한 느낌을 줌</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="웹-앱을-설치가능하도록-만들기">웹 앱을 설치가능하도록 만들기<a href="https://suekim3028.github.io/blog/pwa#%EC%9B%B9-%EC%95%B1%EC%9D%84-%EC%84%A4%EC%B9%98%EA%B0%80%EB%8A%A5%ED%95%98%EB%8F%84%EB%A1%9D-%EB%A7%8C%EB%93%A4%EA%B8%B0" class="hash-link" aria-label="Direct link to 웹 앱을 설치가능하도록 만들기" title="Direct link to 웹 앱을 설치가능하도록 만들기">​</a></h3>
+<ul>
+<li>가능한 방법<!-- -->
+<ol>
+<li>브라우저에서 설치가능하도록 만들기<!-- -->
+<ul>
+<li><code>manifest.json</code> 파일을 통해 브라우저에게 이 웹앱이 어떤 방식으로 동작할지 알려줌</li>
+</ul>
+</li>
+<li>안드로이드에서만 가능<!-- -->
+<ul>
+<li>안드로이드 앱에서, 같은 개발자가 만든 pwa를 브라우저에서 보는 것처럼 열 수 있음</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pwa로-개발자가-가질-수-있는-이점">PWA로 개발자가 가질 수 있는 이점<a href="https://suekim3028.github.io/blog/pwa#pwa%EB%A1%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EA%B0%80%EC%A7%88-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%9D%B4%EC%A0%90" class="hash-link" aria-label="Direct link to PWA로 개발자가 가질 수 있는 이점" title="Direct link to PWA로 개발자가 가질 수 있는 이점">​</a></h3>
+<ol>
+<li>내 앱이 검색 가능해진다!<!-- -->
+<ul>
+<li>기존에 앱스토어나 플레이스토어에만 올라갔던 앱과 다르게, SEO를 통해 브라우저 검색엔진에서 검색이 가능하고 더 많은 사람에게 노출이 될 수 있음</li>
+</ul>
+</li>
+<li>디자인 구현에서의 제약이 낮음</li>
+<li>앱 심사 과정이 필요 없음</li>
+<li>일렉트론 등 데스크탑 앱 대신 PWA를 사용하는 결정을 내릴 수 있음</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="가능한-기능들">가능한 기능들<a href="https://suekim3028.github.io/blog/pwa#%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B8%B0%EB%8A%A5%EB%93%A4" class="hash-link" aria-label="Direct link to 가능한 기능들" title="Direct link to 가능한 기능들">​</a></h3>
+<ul>
+<li>
+<p><a href="https://developer.mozilla.org/ko/docs/Web/API" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/ko/docs/Web/API</a> 웹 브라우저에서 제공하는 다양한 API 들을 확인할 수 있음</p>
+<p><strong>Web API</strong>
+브라우저에서 제공하는 다양한 기능들의 Interfacee들</p>
+</li>
+</ul>
+<ol>
+<li>Push API<!-- -->
+<ul>
+<li>기존의 Notification API와 다르게, 브라우저가 닫힌 뒤에도 유저에게 알림을 줄 수 있음!<!-- -->
+<ul>
+<li>브라우저의 Service Worker를 등록하면, 웹앱과 브라우저, 네트워크 사이에서 proxy 역할을 함
+<img decoding="async" loading="lazy" src="https://suekim3028.github.io/assets/images/Pasted%20image%2020240515183025-38a462d81a79a0ee543a678604907421.png" width="853" height="440" class="img_ev3q"><span style="font-size:10px;color:gray"> 이미지 출처: <a href="https://www.telerik.com/blogs/implementing-web-push-notifications-mern-stack-application" target="_blank" rel="noopener noreferrer">https://www.telerik.com/blogs/implementing-web-push-notifications-mern-stack-application</a> </span></li>
+</ul>
+</li>
+<li><code>service worker</code>
+<ul>
+<li>백그라운드에서 실행되어 네트워크 요청을 가로채고 데이터를 캐시하며 푸시 알림을 전달하는 스크립트</li>
+<li>원하는 스크립트를 아무거나 써서 등록할 수 있다!!!!</li>
+<li><a href="https://github.com/mdn/serviceworker-cookbook/" target="_blank" rel="noopener noreferrer">https://github.com/mdn/serviceworker-cookbook/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Indexed DB API<!-- -->
+<ul>
+<li>브라우저에서 제공하는 NoSQL DB</li>
+<li>PWA가 오프라인 기능을 제공할 수 있는 방법 중 하나</li>
+</ul>
+</li>
+</ol>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// In the following line, you should include the prefixes of implementations you want to test.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">window.indexedDB =</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  window.indexedDB ||</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  window.mozIndexedDB ||</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  window.webkitIndexedDB ||</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  window.msIndexedDB;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">// DON'T use "var indexedDB = ..." if you're not in a function.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">// Moreover, you may need references to some window.IDB* objects:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">window.IDBTransaction =</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  window.IDBTransaction ||</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  window.webkitIDBTransaction ||</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  window.msIDBTransaction;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">window.IDBKeyRange =</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  window.IDBKeyRange || window.webkitIDBKeyRange || window.msIDBKeyRange;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">// (Mozilla has never prefixed these objects, so we don't need window.mozIDB*)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ol start="3">
+<li>연락처 API</li>
+</ol>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">const props = ['name', 'email', 'tel', 'address', 'icon'];</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">const opts = {multiple: true};</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">try {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  const contacts = await navigator.contacts.select(props, opts);</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  handleResults(contacts);</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">} catch (ex) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // Handle any errors here.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>=&gt;</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[{&nbsp; "email": [],&nbsp; "name": ["Queen O'Hearts"],&nbsp; "tel": ["+1-206-555-1000", "+1-206-555-1111"]}]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>`</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pwa의-한계">PWA의 한계<a href="https://suekim3028.github.io/blog/pwa#pwa%EC%9D%98-%ED%95%9C%EA%B3%84" class="hash-link" aria-label="Direct link to PWA의 한계" title="Direct link to PWA의 한계">​</a></h3>
+<ol>
+<li>브라우저별 지원 정도가 다름<!-- -->
+<ul>
+<li>
+<p>항상 브라우저가 해당 api 인터페이스를 가지고 있는지 확인하고, 분기 처리 해야함</p>
+</li>
+<li>
+<p>특히, 애플의 경우 막아놓은거 짱 많음!!!!</p>
+<p><img decoding="async" loading="lazy" src="https://suekim3028.github.io/assets/images/Pasted%20image%2020240515183957-757812afcde201c0b084157eaea84bf6.png" width="619" height="477" class="img_ev3q"><span style="font-size:10px;color:gray"> 이미지 출처: <a href="https://web.dev/articles/http-cache?hl=ko" target="_blank" rel="noopener noreferrer">https://web.dev/articles/http-cache?hl=ko</a> </span></p>
+</li>
+<li>
+<p>항상 참인지 확인하고 소스를 가져다 쓰자..</p>
+</li>
+</ul>
+</li>
+<li>새로고침 등 방해 요소가 많음</li>
+</ol>
+<div class="language-md codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_Ktv7">참고링크</div><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-md codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">https://web.dev/articles/what-are-pwas</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://web.dev/articles/pwa-checklist?hl=ko#can_be_discovered_through_search</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">https://cryptomus.com/ko/blog/the-pwa-app-everything-you-need-to-know</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
             <name>Soobeen Kim</name>
             <uri>https://github.com/suekim3028</uri>
@@ -481,226 +587,6 @@ TBT, INP</li>
             <uri>https://github.com/suekim3028</uri>
         </author>
         <category label="rendering" term="rendering"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Machine Learning on Web]]></title>
-        <id>https://suekim3028.github.io/blog/ml-on-web</id>
-        <link href="https://suekim3028.github.io/blog/ml-on-web"/>
-        <updated>2024-05-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[이 글은 블로그용이 아닌 세션 진행 자료로 먼저 활용된 자료로, 아직 정리되지 않은 임시글입니다.]]></summary>
-        <content type="html"><![CDATA[<p><code>이 글은 블로그용이 아닌 세션 진행 자료로 먼저 활용된 자료로, 아직 정리되지 않은 임시글입니다.</code></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="웹에서의-머신러닝">웹에서의 머신러닝<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%9B%B9%EC%97%90%EC%84%9C%EC%9D%98-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D" class="hash-link" aria-label="Direct link to 웹에서의 머신러닝" title="Direct link to 웹에서의 머신러닝">​</a></h3>
-<ul>
-<li>PWA (Progressive Web Apps) 개념의 등장<!-- -->
-<ul>
-<li>앱 설치 등의 귀찮음 없이도 native app 의 이점을 제공할 수 있도록 최신 API등을 활용해 제작한 웹앱</li>
-</ul>
-<img decoding="async" loading="lazy" alt="https://web.dev/articles/what-are-pwas?hl=ko" src="https://suekim3028.github.io/assets/images/Untitled-76f64ad5a194c209644443d479c5dcb2.png" width="402" height="408" class="img_ev3q"></li>
-</ul>
-<blockquote>
-<h6 class="anchor anchorWithStickyNavbar_LWe7" id="httpswebdevarticleswhat-are-pwashlko"><a href="https://web.dev/articles/what-are-pwas?hl=ko" target="_blank" rel="noopener noreferrer">https://web.dev/articles/what-are-pwas?hl=ko</a><a href="https://suekim3028.github.io/blog/ml-on-web#httpswebdevarticleswhat-are-pwashlko" class="hash-link" aria-label="Direct link to httpswebdevarticleswhat-are-pwashlko" title="Direct link to httpswebdevarticleswhat-are-pwashlko">​</a></h6>
-</blockquote>
-<ul>
-<li>웹 개발에서 점점 보편화되고 있는 머신러닝 → 웹사이트와 웹앱 등에서 통합되고 있음</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="웹에서-머신러닝-모델을-돌리기-위해서-필요��한-것은-무엇일까">웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%9B%B9%EC%97%90%EC%84%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EB%8F%8C%EB%A6%AC%EA%B8%B0-%EC%9C%84%ED%95%B4%EC%84%9C-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B2%83%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C" class="hash-link" aria-label="Direct link to 웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?" title="Direct link to 웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?">​</a></h3>
-<ul>
-<li>어찌 됐든 브라우저에서 돌아가는 건 html과 js<!-- -->
-<ul>
-<li>js 상에서 복잡한 행렬 연산 등이 가능해야 함</li>
-</ul>
-</li>
-<li>빠른 속력<!-- -->
-<ul>
-<li>GPU를 사용할 수 있으면 좋겠다!</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="web-gl-web-graphics-library">Web GL (Web Graphics Library)<a href="https://suekim3028.github.io/blog/ml-on-web#web-gl-web-graphics-library" class="hash-link" aria-label="Direct link to Web GL (Web Graphics Library)" title="Direct link to Web GL (Web Graphics Library)">​</a></h3>
-<p><a href="https://developer.mozilla.org/ko/docs/Web/API/WebGL_API" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/ko/docs/Web/API/WebGL_API</a></p>
-<ul>
-<li>높은 성능을 요구하는 반응형 3D/2D 그래픽을 그릴 수 있도록 Javascript가 제공하는 Web API (open web standard)<!-- -->
-<ul>
-<li><a href="https://mdn.github.io/dom-examples/webgl-examples/tutorial/sample8/" target="_blank" rel="noopener noreferrer">https://mdn.github.io/dom-examples/webgl-examples/tutorial/sample8/</a></li>
-</ul>
-</li>
-<li>다른 그래픽 관련 플러그인 없이 그래픽 렌더링이 가능하게 함</li>
-<li>OpenGL ES 2.0 기반<!-- -->
-<ul>
-<li>Web GL2의 경우 OpenGL ES 3.0에 기반함</li>
-<li>OpenGL<!-- -->
-<ul>
-<li>1992년 초에 컴퓨터 그래픽을 하드웨어 가속으로 처리(렌더링)함과 동시에, 여러 분야에서 사용될 수 있도록 하는 범용성을 보장하기 위해 발표된 2D, 3D 그래픽 API의 규격서</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>대부분의 최신 브라우저와 호환</li>
-<li><code>&lt;canvas /&gt;</code> tag (webgl context를 가지고 있음)을 배경으로 활용해 javascript 에서 스크린에 webgl을 활용한 그래픽을 그릴 수 있도록 함<!-- -->
-<ul>
-<li>three.js 등 라이브러리가 WebGL API를 기반으로 만들어진 library</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shader">shader<a href="https://suekim3028.github.io/blog/ml-on-web#shader" class="hash-link" aria-label="Direct link to shader" title="Direct link to shader">​</a></h3>
-<ul>
-<li>GLSL(OpenGL ES Shading Language)로 쓰인 프로그램</li>
-<li>어떠한 모양을 이루는 vertex들에 대한 정보를 가지고 스크린 위 어떤 픽셀에 어떤 색상을 그려야하는지 생성하는 프로그램</li>
-<li>2개의 shader functions<!-- -->
-<ul>
-<li>vertex shader<!-- -->
-<ul>
-<li>어떠한 모양이 그려질 때마다 모든 vertex에 대해 실행되는 함수</li>
-<li>어떠한 변화에 대해서 해당 vertex의 위치 등을 계산</li>
-</ul>
-</li>
-<li>fragment shader<!-- -->
-<ul>
-<li>어떠한 모양이 그려질 때마다 해당 모양이 그려진 pixel 별로 실행되는 함수</li>
-<li>vertex shader에서 계산된 값들을 공유받아 색상 등을 만들어 냄
-<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%201-d8bd9e777bc6c90261af6f1a89bbb19c.png" width="1120" height="543" class="img_ev3q"></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>javascript 내에서 이 프로그램을 string 형식으로 써서 WebGL 에게 넘겨주면 GPU에서 구동이 되는 형식</li>
-<li>Machine Learning에서 필요한 계산을 할 수 있는 이유!</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="web-gl-을-이용한-demo">Web GL 을 이용한 Demo<a href="https://suekim3028.github.io/blog/ml-on-web#web-gl-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-demo" class="hash-link" aria-label="Direct link to Web GL 을 이용한 Demo" title="Direct link to Web GL 을 이용한 Demo">​</a></h3>
-<p><a href="https://erkaman.github.io/regl-cnn/src/demo.html" target="_blank" rel="noopener noreferrer">https://erkaman.github.io/regl-cnn/src/demo.html</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="webgl로-머신러닝-optimization">WebGL로 머신러닝 Optimization<a href="https://suekim3028.github.io/blog/ml-on-web#webgl%EB%A1%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-optimization" class="hash-link" aria-label="Direct link to WebGL로 머신러닝 Optimization" title="Direct link to WebGL로 머신러닝 Optimization">​</a></h3>
-<ul>
-<li>What Happens in GPU stays in GPU<!-- -->
-<ul>
-<li>gl.readPixels(), canvas.toDataURL() 등 GPU의 값을 읽어와서 CPU 상에서 구동되는 js 등에서 원하는 값을 가져오려고 하면 CPU와 GPU간의 sync 맞추는데 시간 너무 오래걸림</li>
-<li>GPU 상에서 계산되는 texture를 표현하는 Float/Half Float 값을 읽을 때, gl.readPixels()가 아닌 gl_FragColor 를 사용하여 RGBA channel로 인코딩하는 등, GPU 내에서의 방법으로 모든 계산이 이루어지도록 해야함
-<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%202-7782a7fc0c869f69ee6c88f8134aa8f3.png" width="511" height="497" class="img_ev3q"></li>
-</ul>
-</li>
-<li>계산 등에서 나올수 있는 값이 GL 내에서 표현할 수 있는 값인지 조심<!-- -->
-<ul>
-<li>GL 내에서 사용되는 타입<!-- -->
-<ul>
-<li>FLOAT (32 bits)</li>
-<li>HALF_FLOAT (16 bits) → enough for deep learning (경험적으로 최소 11 bits 정도 사용)</li>
-<li>UNSIGNED_BYTE (8 bits)</li>
-</ul>
-</li>
-<li>exp 연산 등을 하게 되면 쉽게 Fmax(float 으로 표현될 수 있는 수) 를 넘어갈 수 있기 때문에 지양</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="webgl-을-이용한-ml관련-library">WebGL 을 이용한 ML관련 library<a href="https://suekim3028.github.io/blog/ml-on-web#webgl-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-ml%EA%B4%80%EB%A0%A8-library" class="hash-link" aria-label="Direct link to WebGL 을 이용한 ML관련 library" title="Direct link to WebGL 을 이용한 ML관련 library">​</a></h3>
-<ul>
-<li>TensorFire<!-- -->
-<ul>
-<li>2017년에 마지막 커밋….</li>
-<li><a href="https://tenso.rs/demos/fast-neural-style/" target="_blank" rel="noopener noreferrer">https://tenso.rs/demos/fast-neural-style/</a></li>
-<li>이전 라이브러리들보다 100배 빠르게 모델 구동 가능<!-- -->
-<ul>
-<li>ResNet-152를 활용해 사진 스타일 바꾸거나, SqueezeNet을 활용해 webcam 으로 들어오는 비디오에 대한 실시간 object detection 등 가능</li>
-</ul>
-</li>
-<li>동작 방식<!-- -->
-<ul>
-<li>low-level 에서는 GLSL 을 이용해 WebGL 로 4D tensor에 대한 동작을 할 수 있는 WebGL shader를 만듦 (이게 이전의 머신러닝 관련 라이브러리들과 다른 점)</li>
-<li>high-level에서는 Keras나 TensorFlow로 학습된 모델을 임포트할 수 있도록 함</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%203-79625eff567ffc92ec8c6b74b95be2fe.png" width="824" height="852" class="img_ev3q"></p>
-<ul>
-<li>tensorflow.js<!-- -->
-<ul>
-<li>Python 으로 작성된 TensorFlow 라이브러리 기반으로 동일한 세트를 JS를 활용해 재현하여 JS 가 실행되는 모든 환경에서 실행될 수 있도록 함</li>
-<li>백엔드를 cpu, node, wasm 등에서 고를 수 있는데 제일 추천하는 것이 webgl<!-- -->
-<ul>
-<li>텐서는 WebGL 텍스처로 저장되고 수학 연산은 WebGL 셰이더에서 구현</li>
-<li>실제로 webgl이 제일 빠름
-<img decoding="async" loading="lazy" alt="https://www.w3.org/2020/06/machine-learning-workshop/talks/a_proposed_web_standard_to_load_and_run_ml_models_on_the_web.html" src="https://suekim3028.github.io/assets/images/Untitled%204-177c04034b4839d1d3c621ba9d4ca28e.png" width="706" height="392" class="img_ev3q">
-<a href="https://www.w3.org/2020/06/machine-learning-workshop/talks/a_proposed_web_standard_to_load_and_run_ml_models_on_the_web.html" target="_blank" rel="noopener noreferrer">https://www.w3.org/2020/06/machine-learning-workshop/talks/a_proposed_web_standard_to_load_and_run_ml_models_on_the_web.html</a></li>
-</ul>
-</li>
-<li>백엔드를 node로 설정한 뒤 가능한 경우 CUDA를 활용한 가속 역시 가능</li>
-</ul>
-<div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// Generate dummy data.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> data </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">randomNormal</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">100</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">784</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> labels </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">randomUniform</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">100</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">10</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">onBatchEnd</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">batch</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> logs</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Accuracy"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> logs</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">acc</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Train for 5 epochs with batch size of 32.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">fit</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">data</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> labels</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">epochs</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">batchSize</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">callbacks</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> onBatchEnd </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">then</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">info</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Final accuracy"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> info</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">history</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">acc</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Predict 3 random samples.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> prediction </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">predict</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">randomNormal</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">784</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">prediction</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<ul>
-<li>TensorFlow.js 의 Layers API 는 Keras와 최대한 유사하게 만들어져 Keras 경험이 있는 사용자가 마이그레이션 하기 편하도록 함<!-- -->
-<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic"># Python:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> keras</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> numpy </span><span class="token keyword" style="color:#00009f">as</span><span class="token plain"> np</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Build and compile model.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> keras</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">Sequential</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">add</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">keras</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">layers</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">Dense</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">units</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> input_shape</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token builtin">compile</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">optimizer</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">'sgd'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> loss</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">'mean_squared_error'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Generate some synthetic data for training.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">xs </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> np</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">array</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">2</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">4</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ys </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> np</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">array</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">7</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Train model with fit().</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">fit</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">xs</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> ys</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> epochs</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">1000</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Run inference with predict().</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">predict</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">np</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">array</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// JavaScript:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token imports operator" style="color:#393A34">*</span><span class="token imports"> </span><span class="token imports keyword module" style="color:#00009f">as</span><span class="token imports"> tf</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"@tensorlowjs/tfjs"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Build and compile model.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> model </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">sequential</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">add</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">layers</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">dense</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">units</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">inputShape</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">compile</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">optimizer</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"sgd"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">loss</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"meanSquaredError"</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Generate some synthetic data for training.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> xs </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">tensor2d</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">2</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">4</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">4</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> ys </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">tensor2d</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">7</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">4</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Train model with fit().</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword control-flow" style="color:#00009f">await</span><span class="token plain"> model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">fit</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">xs</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> ys</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">epochs</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1000</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Run inference with predict().</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">predict</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">tensor2d</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-</li>
-<li>보안 내에서 구동되도록 설계되었다고 함</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="webgpu">WebGPU<a href="https://suekim3028.github.io/blog/ml-on-web#webgpu" class="hash-link" aria-label="Direct link to WebGPU" title="Direct link to WebGPU">​</a></h3>
-<ul>
-<li>2017년부터 개발되고 있는 그래픽 API (개발 초기 단계)</li>
-<li>WebGL 에 비교했을 때 머신러닝 컴퓨테이션 역시 고려하고 사용했기 때문에 성능이 더 좋을 것으로 예상
-<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%205-7b1aef2effe6e0658a687f905621da11.png" width="761" height="915" class="img_ev3q"></li>
-<li>web-based game 관련 개발의 경우 WebGPU가 우세 (성능 측면)</li>
-<li>AR/VR 콘텐츠 관련 개발의 경우 WebGL이 우세 (html과의 호환성 등)</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="웹표준에서-ml-관련-api를-포함하려는-움직임">웹표준에서 ML 관련 API를 포함하려는 움직임<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%9B%B9%ED%91%9C%EC%A4%80%EC%97%90%EC%84%9C-ml-%EA%B4%80%EB%A0%A8-api%EB%A5%BC-%ED%8F%AC%ED%95%A8%ED%95%98%EB%A0%A4%EB%8A%94-%EC%9B%80%EC%A7%81%EC%9E%84" class="hash-link" aria-label="Direct link to 웹표준에서 ML 관련 API를 포함하려는 움직임" title="Direct link to 웹표준에서 ML 관련 API를 포함하려는 움직임">​</a></h3>
-<ul>
-<li>Web NN API (Web Neural Network API)<!-- -->
-<ul>
-<li><a href="https://www.w3.org/TR/webnn/#intro" target="_blank" rel="noopener noreferrer">https://www.w3.org/TR/webnn/#intro</a>
-<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%206-4f7f10e9ede51123702d395732c2b7f6.png" width="615" height="334" class="img_ev3q"></li>
-<li>web 표준 api로 등록 추천 이전인 candidate recommendation 상태
-<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%207-6004f91c6019405545a5cfe7e821ddb4.png" width="404" height="622" class="img_ev3q"></li>
-</ul>
-</li>
-<li>Model Loader API<!-- -->
-<ul>
-<li>custom 하여 이미 pre-trained 된 모델을 불러올 수 있는 API</li>
-<li>W3C 워크샵에서 proposal 된 정도인 듯..? (Google PM이 propose)</li>
-<li>WebAssembly나 WebGL 등은 ML에 특화되어 있지 않기 때문에 더 빠르게 동작할 수 있는 workload가 필요</li>
-<li>관련 구글 재직자들 옮기면서 2022년 말에 중지된 프로젝트</li>
-<li><a href="https://amber-hilarious-wire.glitch.me/" target="_blank" rel="noopener noreferrer">https://amber-hilarious-wire.glitch.me/</a>
-<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%208-38c2416f4f56996abe00d00f30208342.png" width="814" height="131" class="img_ev3q">
-<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%209-b783368663ae09f482bc1b00099e129b.png" width="920" height="200" class="img_ev3q"></li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="왜-웹-상에서-머신러닝-모델을-구동시켜야-할까">왜 웹 상에서 머신러닝 모델을 구동시켜야 할까?<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%99%9C-%EC%9B%B9-%EC%83%81%EC%97%90%EC%84%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EA%B5%AC%EB%8F%99%EC%8B%9C%EC%BC%9C%EC%95%BC-%ED%95%A0%EA%B9%8C" class="hash-link" aria-label="Direct link to 왜 웹 상에서 머신러닝 모델을 구동시켜야 할까?" title="Direct link to 왜 웹 상에서 머신러닝 모델을 구동시켜야 할까?">​</a></h3>
-<ul>
-<li>↔ On-Device AI<!-- -->
-<ul>
-<li>이 경우 내 모바일 기기에 이미 포함되어 있는 형식<!-- -->
-<ul>
-<li>네트워크 통신 없이도 모델 구동이 이루어짐</li>
-</ul>
-</li>
-<li>웹의 경우 해당 웹페이지를 들어가서 페이지의 데이터를 받아오는 등의 통신은 필요하지만, 이후 해당 페이지에서 필요로하는 AI 모델에 대한 구동을 서버에서 해주지 않고 유저의 하드웨어에서 돌아갈 수 있게 하는 것</li>
-</ul>
-</li>
-<li>WebAssembly 와 JS의 발전</li>
-<li>low latency<!-- -->
-<ul>
-<li>서버와의 통신 시간이 필요하지 않음</li>
-</ul>
-</li>
-<li>high privacy<!-- -->
-<ul>
-<li>모델에 들어온 데이터가 네트워크 상에서 이동하지 않음</li>
-</ul>
-</li>
-<li>lower serving cost<!-- -->
-<ul>
-<li>모델이 prediction 을 실행할 때 host website 상에서 실행되기 때문에 유저 디바이스 상에서의 cost임</li>
-</ul>
-</li>
-</ul>]]></content>
-        <author>
-            <name>Soobeen Kim</name>
-            <uri>https://github.com/suekim3028</uri>
-        </author>
-        <category label="ml" term="ml"/>
-        <category label="web" term="web"/>
-        <category label="pwa" term="pwa"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[웹서버, WAS, 로드밸런서]]></title>
@@ -1281,6 +1167,226 @@ TBT, INP</li>
         </author>
         <category label="web" term="web"/>
         <category label="webserver" term="webserver"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Machine Learning on Web]]></title>
+        <id>https://suekim3028.github.io/blog/ml-on-web</id>
+        <link href="https://suekim3028.github.io/blog/ml-on-web"/>
+        <updated>2024-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[이 글은 블로그용이 아닌 세션 진행 자료로 먼저 활용된 자료로, 아직 정리되지 않은 임시글입니다.]]></summary>
+        <content type="html"><![CDATA[<p><code>이 글은 블로그용이 아닌 세션 진행 자료로 먼저 활용된 자료로, 아직 정리되지 않은 임시글입니다.</code></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="웹에서의-머신러닝">웹에서의 머신러닝<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%9B%B9%EC%97%90%EC%84%9C%EC%9D%98-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D" class="hash-link" aria-label="Direct link to 웹에서의 머신러닝" title="Direct link to 웹에서의 머신러닝">​</a></h3>
+<ul>
+<li>PWA (Progressive Web Apps) 개념의 등장<!-- -->
+<ul>
+<li>앱 설치 등의 귀찮음 없이도 native app 의 이점을 제공할 수 있도록 최신 API등을 활용해 제작한 웹앱</li>
+</ul>
+<img decoding="async" loading="lazy" alt="https://web.dev/articles/what-are-pwas?hl=ko" src="https://suekim3028.github.io/assets/images/Untitled-76f64ad5a194c209644443d479c5dcb2.png" width="402" height="408" class="img_ev3q"></li>
+</ul>
+<blockquote>
+<h6 class="anchor anchorWithStickyNavbar_LWe7" id="httpswebdevarticleswhat-are-pwashlko"><a href="https://web.dev/articles/what-are-pwas?hl=ko" target="_blank" rel="noopener noreferrer">https://web.dev/articles/what-are-pwas?hl=ko</a><a href="https://suekim3028.github.io/blog/ml-on-web#httpswebdevarticleswhat-are-pwashlko" class="hash-link" aria-label="Direct link to httpswebdevarticleswhat-are-pwashlko" title="Direct link to httpswebdevarticleswhat-are-pwashlko">​</a></h6>
+</blockquote>
+<ul>
+<li>웹 개발에서 점점 보편화되고 있는 머신러닝 → 웹사이트와 웹앱 등에서 통합되고 있음</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="웹에서-머신러닝-모델을-돌리기-위해서-필요��한-것은-무엇일까">웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%9B%B9%EC%97%90%EC%84%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EB%8F%8C%EB%A6%AC%EA%B8%B0-%EC%9C%84%ED%95%B4%EC%84%9C-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B2%83%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C" class="hash-link" aria-label="Direct link to 웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?" title="Direct link to 웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?">​</a></h3>
+<ul>
+<li>어찌 됐든 브라우저에서 돌아가는 건 html과 js<!-- -->
+<ul>
+<li>js 상에서 복잡한 행렬 연산 등이 가능해야 함</li>
+</ul>
+</li>
+<li>빠른 속력<!-- -->
+<ul>
+<li>GPU를 사용할 수 있으면 좋겠다!</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="web-gl-web-graphics-library">Web GL (Web Graphics Library)<a href="https://suekim3028.github.io/blog/ml-on-web#web-gl-web-graphics-library" class="hash-link" aria-label="Direct link to Web GL (Web Graphics Library)" title="Direct link to Web GL (Web Graphics Library)">​</a></h3>
+<p><a href="https://developer.mozilla.org/ko/docs/Web/API/WebGL_API" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/ko/docs/Web/API/WebGL_API</a></p>
+<ul>
+<li>높은 성능을 요구하는 반응형 3D/2D 그래픽을 그릴 수 있도록 Javascript가 제공하는 Web API (open web standard)<!-- -->
+<ul>
+<li><a href="https://mdn.github.io/dom-examples/webgl-examples/tutorial/sample8/" target="_blank" rel="noopener noreferrer">https://mdn.github.io/dom-examples/webgl-examples/tutorial/sample8/</a></li>
+</ul>
+</li>
+<li>다른 그래픽 관련 플러그인 없이 그래픽 렌더링이 가능하게 함</li>
+<li>OpenGL ES 2.0 기반<!-- -->
+<ul>
+<li>Web GL2의 경우 OpenGL ES 3.0에 기반함</li>
+<li>OpenGL<!-- -->
+<ul>
+<li>1992년 초에 컴퓨터 그래픽을 하드웨어 가속으로 처리(렌더링)함과 동시에, 여러 분야에서 사용될 수 있도록 하는 범용성을 보장하기 위해 발표된 2D, 3D 그래픽 API의 규격서</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>대부분의 최신 브라우저와 호환</li>
+<li><code>&lt;canvas /&gt;</code> tag (webgl context를 가지고 있음)을 배경으로 활용해 javascript 에서 스크린에 webgl을 활용한 그래픽을 그릴 수 있도록 함<!-- -->
+<ul>
+<li>three.js 등 라이브러리가 WebGL API를 기반으로 만들어진 library</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shader">shader<a href="https://suekim3028.github.io/blog/ml-on-web#shader" class="hash-link" aria-label="Direct link to shader" title="Direct link to shader">​</a></h3>
+<ul>
+<li>GLSL(OpenGL ES Shading Language)로 쓰인 프로그램</li>
+<li>어떠한 모양을 이루는 vertex들에 대한 정보를 가지고 스크린 위 어떤 픽셀에 어떤 색상을 그려야하는지 생성하는 프로그램</li>
+<li>2개의 shader functions<!-- -->
+<ul>
+<li>vertex shader<!-- -->
+<ul>
+<li>어떠한 모양이 그려질 때마다 모든 vertex에 대해 실행되는 함수</li>
+<li>어떠한 변화에 대해서 해당 vertex의 위치 등을 계산</li>
+</ul>
+</li>
+<li>fragment shader<!-- -->
+<ul>
+<li>어떠한 모양이 그려질 때마다 해당 모양이 그려진 pixel 별로 실행되는 함수</li>
+<li>vertex shader에서 계산된 값들을 공유받아 색상 등을 만들어 냄
+<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%201-d8bd9e777bc6c90261af6f1a89bbb19c.png" width="1120" height="543" class="img_ev3q"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>javascript 내에서 이 프로그램을 string 형식으로 써서 WebGL 에게 넘겨주면 GPU에서 구동이 되는 형식</li>
+<li>Machine Learning에서 필요한 계산을 할 수 있는 이유!</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="web-gl-을-이용한-demo">Web GL 을 이용한 Demo<a href="https://suekim3028.github.io/blog/ml-on-web#web-gl-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-demo" class="hash-link" aria-label="Direct link to Web GL 을 이용한 Demo" title="Direct link to Web GL 을 이용한 Demo">​</a></h3>
+<p><a href="https://erkaman.github.io/regl-cnn/src/demo.html" target="_blank" rel="noopener noreferrer">https://erkaman.github.io/regl-cnn/src/demo.html</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="webgl로-머신러닝-optimization">WebGL로 머신러닝 Optimization<a href="https://suekim3028.github.io/blog/ml-on-web#webgl%EB%A1%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-optimization" class="hash-link" aria-label="Direct link to WebGL로 머신러닝 Optimization" title="Direct link to WebGL로 머신러닝 Optimization">​</a></h3>
+<ul>
+<li>What Happens in GPU stays in GPU<!-- -->
+<ul>
+<li>gl.readPixels(), canvas.toDataURL() 등 GPU의 값을 읽어와서 CPU 상에서 구동되는 js 등에서 원하는 값을 가져오려고 하면 CPU와 GPU간의 sync 맞추는데 시간 너무 오래걸림</li>
+<li>GPU 상에서 계산되는 texture를 표현하는 Float/Half Float 값을 읽을 때, gl.readPixels()가 아닌 gl_FragColor 를 사용하여 RGBA channel로 인코딩하는 등, GPU 내에서의 방법으로 모든 계산이 이루어지도록 해야함
+<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%202-7782a7fc0c869f69ee6c88f8134aa8f3.png" width="511" height="497" class="img_ev3q"></li>
+</ul>
+</li>
+<li>계산 등에서 나올수 있는 값이 GL 내에서 표현할 수 있는 값인지 조심<!-- -->
+<ul>
+<li>GL 내에서 사용되는 타입<!-- -->
+<ul>
+<li>FLOAT (32 bits)</li>
+<li>HALF_FLOAT (16 bits) → enough for deep learning (경험적으로 최소 11 bits 정도 사용)</li>
+<li>UNSIGNED_BYTE (8 bits)</li>
+</ul>
+</li>
+<li>exp 연산 등을 하게 되면 쉽게 Fmax(float 으로 표현될 수 있는 수) 를 넘어갈 수 있기 때문에 지양</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="webgl-을-이용한-ml관련-library">WebGL 을 이용한 ML관련 library<a href="https://suekim3028.github.io/blog/ml-on-web#webgl-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-ml%EA%B4%80%EB%A0%A8-library" class="hash-link" aria-label="Direct link to WebGL 을 이용한 ML관련 library" title="Direct link to WebGL 을 이용한 ML관련 library">​</a></h3>
+<ul>
+<li>TensorFire<!-- -->
+<ul>
+<li>2017년에 마지막 커밋….</li>
+<li><a href="https://tenso.rs/demos/fast-neural-style/" target="_blank" rel="noopener noreferrer">https://tenso.rs/demos/fast-neural-style/</a></li>
+<li>이전 라이브러리들보다 100배 빠르게 모델 구동 가능<!-- -->
+<ul>
+<li>ResNet-152를 활용해 사진 스타일 바꾸거나, SqueezeNet을 활용해 webcam 으로 들어오는 비디오에 대한 실시간 object detection 등 가능</li>
+</ul>
+</li>
+<li>동작 방식<!-- -->
+<ul>
+<li>low-level 에서는 GLSL 을 이용해 WebGL 로 4D tensor에 대한 동작을 할 수 있는 WebGL shader를 만듦 (이게 이전의 머신러닝 관련 라이브러리들과 다른 점)</li>
+<li>high-level에서는 Keras나 TensorFlow로 학습된 모델을 임포트할 수 있도록 함</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%203-79625eff567ffc92ec8c6b74b95be2fe.png" width="824" height="852" class="img_ev3q"></p>
+<ul>
+<li>tensorflow.js<!-- -->
+<ul>
+<li>Python 으로 작성된 TensorFlow 라이브러리 기반으로 동일한 세트를 JS를 활용해 재현하여 JS 가 실행되는 모든 환경에서 실행될 수 있도록 함</li>
+<li>백엔드를 cpu, node, wasm 등에서 고를 수 있는데 제일 추천하는 것이 webgl<!-- -->
+<ul>
+<li>텐서는 WebGL 텍스처로 저장되고 수학 연산은 WebGL 셰이더에서 구현</li>
+<li>실제로 webgl이 제일 빠름
+<img decoding="async" loading="lazy" alt="https://www.w3.org/2020/06/machine-learning-workshop/talks/a_proposed_web_standard_to_load_and_run_ml_models_on_the_web.html" src="https://suekim3028.github.io/assets/images/Untitled%204-177c04034b4839d1d3c621ba9d4ca28e.png" width="706" height="392" class="img_ev3q">
+<a href="https://www.w3.org/2020/06/machine-learning-workshop/talks/a_proposed_web_standard_to_load_and_run_ml_models_on_the_web.html" target="_blank" rel="noopener noreferrer">https://www.w3.org/2020/06/machine-learning-workshop/talks/a_proposed_web_standard_to_load_and_run_ml_models_on_the_web.html</a></li>
+</ul>
+</li>
+<li>백엔드를 node로 설정한 뒤 가능한 경우 CUDA를 활용한 가속 역시 가능</li>
+</ul>
+<div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// Generate dummy data.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> data </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">randomNormal</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">100</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">784</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> labels </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">randomUniform</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">100</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">10</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">onBatchEnd</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">batch</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> logs</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Accuracy"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> logs</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">acc</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Train for 5 epochs with batch size of 32.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">fit</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">data</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> labels</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">epochs</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">batchSize</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">callbacks</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> onBatchEnd </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">then</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">info</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Final accuracy"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> info</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">history</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">acc</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Predict 3 random samples.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> prediction </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">predict</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">randomNormal</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">784</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">prediction</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li>TensorFlow.js 의 Layers API 는 Keras와 최대한 유사하게 만들어져 Keras 경험이 있는 사용자가 마이그레이션 하기 편하도록 함<!-- -->
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic"># Python:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> keras</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> numpy </span><span class="token keyword" style="color:#00009f">as</span><span class="token plain"> np</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Build and compile model.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> keras</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">Sequential</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">add</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">keras</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">layers</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">Dense</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">units</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> input_shape</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token builtin">compile</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">optimizer</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">'sgd'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> loss</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">'mean_squared_error'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Generate some synthetic data for training.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">xs </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> np</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">array</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">2</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">4</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ys </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> np</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">array</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">7</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Train model with fit().</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">fit</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">xs</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> ys</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> epochs</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">1000</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Run inference with predict().</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">predict</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">np</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">array</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// JavaScript:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token imports operator" style="color:#393A34">*</span><span class="token imports"> </span><span class="token imports keyword module" style="color:#00009f">as</span><span class="token imports"> tf</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"@tensorlowjs/tfjs"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Build and compile model.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> model </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">sequential</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">add</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">layers</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">dense</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">units</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">inputShape</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">compile</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">optimizer</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"sgd"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">loss</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"meanSquaredError"</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Generate some synthetic data for training.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> xs </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">tensor2d</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">2</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">4</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">4</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> ys </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">tensor2d</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">7</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">4</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Train model with fit().</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword control-flow" style="color:#00009f">await</span><span class="token plain"> model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">fit</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">xs</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> ys</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">epochs</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1000</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Run inference with predict().</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">model</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">predict</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tf</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">tensor2d</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>보안 내에서 구동되도록 설계되었다고 함</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="webgpu">WebGPU<a href="https://suekim3028.github.io/blog/ml-on-web#webgpu" class="hash-link" aria-label="Direct link to WebGPU" title="Direct link to WebGPU">​</a></h3>
+<ul>
+<li>2017년부터 개발되고 있는 그래픽 API (개발 초기 단계)</li>
+<li>WebGL 에 비교했을 때 머신러닝 컴퓨테이션 역시 고려하고 사용했기 때문에 성능이 더 좋을 것으로 예상
+<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%205-7b1aef2effe6e0658a687f905621da11.png" width="761" height="915" class="img_ev3q"></li>
+<li>web-based game 관련 개발의 경우 WebGPU가 우세 (성능 측면)</li>
+<li>AR/VR 콘텐츠 관련 개발의 경우 WebGL이 우세 (html과의 호환성 등)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="웹표준에서-ml-관련-api를-포함하려는-움직임">웹표준에서 ML 관련 API를 포함하려는 움직임<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%9B%B9%ED%91%9C%EC%A4%80%EC%97%90%EC%84%9C-ml-%EA%B4%80%EB%A0%A8-api%EB%A5%BC-%ED%8F%AC%ED%95%A8%ED%95%98%EB%A0%A4%EB%8A%94-%EC%9B%80%EC%A7%81%EC%9E%84" class="hash-link" aria-label="Direct link to 웹표준에서 ML 관련 API를 포함하려는 움직임" title="Direct link to 웹표준에서 ML 관련 API를 포함하려는 움직임">​</a></h3>
+<ul>
+<li>Web NN API (Web Neural Network API)<!-- -->
+<ul>
+<li><a href="https://www.w3.org/TR/webnn/#intro" target="_blank" rel="noopener noreferrer">https://www.w3.org/TR/webnn/#intro</a>
+<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%206-4f7f10e9ede51123702d395732c2b7f6.png" width="615" height="334" class="img_ev3q"></li>
+<li>web 표준 api로 등록 추천 이전인 candidate recommendation 상태
+<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%207-6004f91c6019405545a5cfe7e821ddb4.png" width="404" height="622" class="img_ev3q"></li>
+</ul>
+</li>
+<li>Model Loader API<!-- -->
+<ul>
+<li>custom 하여 이미 pre-trained 된 모델을 불러올 수 있는 API</li>
+<li>W3C 워크샵에서 proposal 된 정도인 듯..? (Google PM이 propose)</li>
+<li>WebAssembly나 WebGL 등은 ML에 특화되어 있지 않기 때문에 더 빠르게 동작할 수 있는 workload가 필요</li>
+<li>관련 구글 재직자들 옮기면서 2022년 말에 중지된 프로젝트</li>
+<li><a href="https://amber-hilarious-wire.glitch.me/" target="_blank" rel="noopener noreferrer">https://amber-hilarious-wire.glitch.me/</a>
+<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%208-38c2416f4f56996abe00d00f30208342.png" width="814" height="131" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="Untitled" src="https://suekim3028.github.io/assets/images/Untitled%209-b783368663ae09f482bc1b00099e129b.png" width="920" height="200" class="img_ev3q"></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="왜-웹-상에서-머신러닝-모델을-구동시켜야-할까">왜 웹 상에서 머신러닝 모델을 구동시켜야 할까?<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%99%9C-%EC%9B%B9-%EC%83%81%EC%97%90%EC%84%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EA%B5%AC%EB%8F%99%EC%8B%9C%EC%BC%9C%EC%95%BC-%ED%95%A0%EA%B9%8C" class="hash-link" aria-label="Direct link to 왜 웹 상에서 머신러닝 모델을 구동시켜야 할까?" title="Direct link to 왜 웹 상에서 머신러닝 모델을 구동시켜야 할까?">​</a></h3>
+<ul>
+<li>↔ On-Device AI<!-- -->
+<ul>
+<li>이 경우 내 모바일 기기에 이미 포함되어 있는 형식<!-- -->
+<ul>
+<li>네트워크 통신 없이도 모델 구동이 이루어짐</li>
+</ul>
+</li>
+<li>웹의 경우 해당 웹페이지를 들어가서 페이지의 데이터를 받아오는 등의 통신은 필요하지만, 이후 해당 페이지에서 필요로하는 AI 모델에 대한 구동을 서버에서 해주지 않고 유저의 하드웨어에서 돌아갈 수 있게 하는 것</li>
+</ul>
+</li>
+<li>WebAssembly 와 JS의 발전</li>
+<li>low latency<!-- -->
+<ul>
+<li>서버와의 통신 시간이 필요하지 않음</li>
+</ul>
+</li>
+<li>high privacy<!-- -->
+<ul>
+<li>모델에 들어온 데이터가 네트워크 상에서 이동하지 않음</li>
+</ul>
+</li>
+<li>lower serving cost<!-- -->
+<ul>
+<li>모델이 prediction 을 실행할 때 host website 상에서 실행되기 때문에 유저 디바이스 상에서의 cost임</li>
+</ul>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Soobeen Kim</name>
+            <uri>https://github.com/suekim3028</uri>
+        </author>
+        <category label="ml" term="ml"/>
+        <category label="web" term="web"/>
+        <category label="pwa" term="pwa"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[attachments/Pasted]]></title>
