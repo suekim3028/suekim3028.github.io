@@ -2,11 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://suekim3028.github.io/blog</id>
     <title>Soobeen Kim Blog</title>
-    <updated>2024-05-02T00:00:00.000Z</updated>
+    <updated>2024-05-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://suekim3028.github.io/blog"/>
     <subtitle>Soobeen Kim Blog</subtitle>
     <icon>https://suekim3028.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Progressive Web App]]></title>
+        <id>https://suekim3028.github.io/blog/pwa</id>
+        <link href="https://suekim3028.github.io/blog/pwa"/>
+        <updated>2024-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[프로그레시브 웹앱이란?]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="프로그레시브-웹앱이란">프로그레시브 웹앱이란?<a href="https://suekim3028.github.io/blog/pwa#%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9%EC%95%B1%EC%9D%B4%EB%9E%80" class="hash-link" aria-label="Direct link to 프로그레시브 웹앱이란?" title="Direct link to 프로그레시브 웹앱이란?">​</a></h3>
+<ul>
+<li>기존의 모바일 앱만이 가능했던 기능들 (platform dependent)<!-- -->
+<ul>
+<li>위치정보, 푸쉬 등</li>
+</ul>
+</li>
+<li>-&gt; 이러한 기능들을 '웹 브라우저'가 지원하기 시작하면서<!-- -->
+<ul>
+<li>앱 설치 없이</li>
+<li>단일 코드 베이스로</li>
+<li>모든 웹 사용자가 사용가능
+해짐!</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="프로그레시브-웹앱의-주요-기능들">프로그레시브 웹앱의 주요 기능들<a href="https://suekim3028.github.io/blog/pwa#%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9%EC%95%B1%EC%9D%98-%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5%EB%93%A4" class="hash-link" aria-label="Direct link to 프로그레시브 웹앱의 주요 기능들" title="Direct link to 프로그레시브 웹앱의 주요 기능들">​</a></h3>
+<ol>
+<li>
+<p>Capable</p>
+<ul>
+<li>기존의 platform specific app 에서만 가능했던 기능들을 사용자 권한 허용을 기반으로 제공함</li>
+<li>![](attachments/Pasted%20 image%2020240515174540. png) <span style="font-size:10px;color:gray"> 이미지 출처: <a href="https://medium.com/watcha/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C-%EB%AF%B8%EB%94%94%EC%96%B4-%EA%B6%8C%ED%95%9C%EC%9D%84-%EB%8B%A4%EB%A3%A8%EB%8A%94-%EA%B0%84%EB%8B%A8-tip-ee9e42ce9cb1" target="_blank" rel="noopener noreferrer">https://medium.com/watcha/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C-%EB%AF%B8%EB%94%94%EC%96%B4-%EA%B6%8C%ED%95%9C%EC%9D%84-%EB%8B%A4%EB%A3%A8%EB%8A%94-%EA%B0%84%EB%8B%A8-tip-ee9e42ce9cb1</a> </span></li>
+</ul>
+</li>
+<li>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reliable">Reliable<a href="https://suekim3028.github.io/blog/pwa#reliable" class="hash-link" aria-label="Direct link to Reliable" title="Direct link to Reliable">​</a></h2>
+</li>
+</ol>]]></content>
+        <author>
+            <name>Soobeen Kim</name>
+            <uri>https://github.com/suekim3028</uri>
+        </author>
+        <category label="web" term="web"/>
+        <category label="pwa" term="pwa"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Next.js14] 유저 로그인 여부에 따른 router redirect]]></title>
+        <id>https://suekim3028.github.io/blog/next-14-redirect-by-auth</id>
+        <link href="https://suekim3028.github.io/blog/next-14-redirect-by-auth"/>
+        <updated>2024-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[app 과 같은 레벨에 있는 middleware 에서 쿠키 확인]]></summary>
+        <content type="html"><![CDATA[<p>app 과 같은 레벨에 있는 middleware 에서 쿠키 확인
+app 과 같은 레벨에 있는 middleware 에서 쿠키 확인
+token 을 set할 때 cookie에도 set (cookie set할때마다 middleware가 돌기 때문에 값이 다를때만 set하기)</p>
+<p>app layout 에서 useEffect를 통해 새로고침이 될때마다만 쿠키에서 accessToken 확인 및 유저 정보 가져옴 -&gt; refresh 한 경우 새로운 토큰 cookie에 저장</p>]]></content>
+        <author>
+            <name>Soobeen Kim</name>
+            <uri>https://github.com/suekim3028</uri>
+        </author>
+        <category label="web" term="web"/>
+        <category label="webserver" term="webserver"/>
+        <category label="Nextjs" term="Nextjs"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Machine Learning on Web]]></title>
         <id>https://suekim3028.github.io/blog/ml-on-web</id>
@@ -28,7 +88,7 @@
 <ul>
 <li>웹 개발에서 점점 보편화되고 있는 머신러닝 → 웹사이트와 웹앱 등에서 통합되고 있음</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="웹에서-머신러닝-모델을-돌리기-위해서-필요한-것은-무엇일까">웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%9B%B9%EC%97%90%EC%84%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EB%8F%8C%EB%A6%AC%EA%B8%B0-%EC%9C%84%ED%95%B4%EC%84%9C-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B2%83%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C" class="hash-link" aria-label="Direct link to 웹에서 머신러닝 모델�을 돌리기 위해서 필요한 것은 무엇일까?" title="Direct link to 웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="웹에서-머신러닝-모델을-돌리기-위해서-필요��한-것은-무엇일까">웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?<a href="https://suekim3028.github.io/blog/ml-on-web#%EC%9B%B9%EC%97%90%EC%84%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%AA%A8%EB%8D%B8%EC%9D%84-%EB%8F%8C%EB%A6%AC%EA%B8%B0-%EC%9C%84%ED%95%B4%EC%84%9C-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B2%83%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C" class="hash-link" aria-label="Direct link to 웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?" title="Direct link to 웹에서 머신러닝 모델을 돌리기 위해서 필요한 것은 무엇일까?">​</a></h3>
 <ul>
 <li>어찌 됐든 브라우저에서 돌아가는 건 html과 js<!-- -->
 <ul>
